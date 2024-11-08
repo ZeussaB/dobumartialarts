@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+  <div class="logo">
+    <a href="Home.html"><img src="logo.png" alt="DoBu Martial Arts Logo"></a>
+    <h1>DoBu Martial Arts</h1>
+  </div>
+  <div class="navigation-container">
+    <nav>
+      <a href="Home.html">HOME</a>
+      <a href="Classes.html">CLASSES</a>
+      <a href="Fitness.html">FITNESS</a>
+      <a href="About.html">ABOUT</a>
+      <a href="Contact.html">CONTACT</a>
+    </nav>
+    <div class="login-container">
+      <a href="#"> Login</a>
+    </div>
+  </div>
+</header>
+
+<!-- Self-Defense Section -->
+<section class="section-container">
+  <h2>Self-Defense</h2>
+  <div class="content">
+    <img class="bordered-image" src="self-defense.webp" alt="Self-Defense">
+    <div class="text">
+      <p><strong>What is Self-Defense?</strong><br>
+        Self-defense training empowers individuals to protect themselves and build confidence by learning techniques for real-world situations. This six-week course, designed for beginners, focuses on practical skills and techniques (2 × 1-hour sessions per week).</p>
+      <p><strong>Price:</strong> £180.00</p>
+      <button class="register-btn">Register</button>
+    </div>
+  </div>
+</section>
+
+<!-- Fitness Room Section -->
+<section class="section-container">
+  <h2>Fitness Room</h2>
+  <div class="content">
+    <div class="text">
+      <p><strong>What is the Fitness Room?</strong><br>
+        The fitness room is a well-equipped space available for general workout routines, strength training, and cardiovascular exercises. It's an ideal option for those who prefer a flexible workout schedule in a dedicated environment.</p>
+      <p><strong>Cost per Visit:</strong> £6.00</p>
+      <button class="reserve-btn">Reserve</button>
+    </div>
+    <img class="bordered-image" src="fitness-room.jpg" alt="Fitness Room">
+  </div>
+</section>
+
+<!-- Personal Training Section -->
+<section class="section-container">
+  <h2>Personal Training</h2>
+  <div class="content">
+    <img class="bordered-image" src="personal-training.webp" alt="Personal Training">
+    <div class="text">
+      <p><strong>What is Personal Training?</strong><br>
+        Personal training provides one-on-one coaching tailored to meet your fitness goals. Whether you're aiming to lose weight, build muscle, or improve endurance, our certified trainers will create a personalized workout plan to help you succeed.</p>
+      <p><strong>Cost per Hour:</strong> £35.00</p>
+      <button class="register-btn">Register</button>
+    </div>
+  </div>
+</section>
+
+<!-- Forms Section -->
+<section class="forms-section">
+  <div class="form-container">
+    <h3>REGISTRATION</h3>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="course">Course</label>
+      <select id="course" name="course">
+        <option value="self-defense">Self-Defense</option>
+        <option value="personal-training">Personal Training</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <h3>ROOM RESERVATION</h3>
+    <form>
+      <label for="res-name">Name</label>
+      <input type="text" id="res-name" name="res-name" required>
+
+      <label for="res-phone">Phone Number</label>
+      <input type="tel" id="res-phone" name="res-phone" required>
+
+      <label for="res-email">Email</label>
+      <input type="email" id="res-email" name="res-email" required>
+
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-logo">
+    <img src="logo.png" alt="DoBu Martial Arts Logo">
+  </div>
+  <div class="footer-text">
+    <p>&copy; 2024 DoBu Martial Arts. All rights reserved.</p>
+  </div>
+</footer>
+<script src="script2.js"></script>
+</body>
+</html>
+
